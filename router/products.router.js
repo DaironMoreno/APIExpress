@@ -73,4 +73,8 @@ router.delete('/:id', async (req,res,next)=>{
         next(error);
     }
 });
+router.get('/:nada', async (req,res,next)=>{
+    
+    console.log("prueba");
+});
 module.exports = router;
